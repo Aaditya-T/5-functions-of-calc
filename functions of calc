@@ -1,0 +1,87 @@
+<html> 
+<head>
+         <title>5 functions of calc</title>
+        </head>
+        <body 
+        style = "background-image: url('download.jpg'); 
+        background-size: 75% 65%;">
+        <u><font size=25 color=red><center>5 functions of calc</font></center></u>
+<hr size=10 color=black >
+<br>
+<br>
+       <u><center> <font size=7> Function 1 - Mode() </font> <br></u>
+        <font size = 5></center>
+        
+            <img src="example_mode.png" height="400" width="700" align="Right">
+        <br><br><br><br><left>
+        MODE returns the number that occurs most often, or 
+        if more than one number occurs that many times, the 
+        smallest such number. If no number occurs more than 
+        once, MODE returns an error.(Usage is given in the image)
+        '=mode(a2:11)' [Syntax]
+    </left>
+        <br><br><br><br><br><br><br><br><br><br>
+       </font>
+       
+       <u><center> <font size=7> Function 2 - Power() </font> <br></u>
+        <font size = 5></center>
+        
+            <img src="example_power.png" height="400" width="700" align="Right">
+           <br><br><br><br> <left>
+        Raises one number (the base) to the power of 
+        another number (the exponent). This mathematical 
+        operation is known as exponentiation.
+
+
+            
+        Usage - '=power(cell1,cell2)' [syntax]
+                '=power(5,10)' 
+                [We can also directly put numbers instead 
+                of cell address.]
+            </left>
+            <br><BR><BR><br><BR><BR><br><BR><BR><br><BR><BR>
+
+        <u><center> <font size=7> Function 3 - Round() </font> <br></u>
+            <font size = 5></center>
+
+            
+                <img src="example-round.png" height="400" width="700" align="Right">
+                <br><br><br><br><left>
+        The ROUND function rounds x to y decimal places, 
+        as in '=ROUND(1.2533; 1)'[syntax] which returns the argument 
+        rounded to one decimal place, or 1.3. More examples 
+        given in the image,Usage also given in the image.
+                </left>
+            <br><br><br><br><br><br><BR><BR><br><BR><BR>
+
+         <u><center> <font size=7> Function 4 - Rank() </font> <br></u>
+            <font size = 5></center>
+
+            
+                <img src="example-rank.png" height="250" width="650" align="Right">
+                <BR><br><BR><BR><left>
+        The RANK function returns the rank of a given number in 
+        the given set of numbers. You give it a value, a set, and RANK 
+        will tell you if the given number is 1st, 2nd, 3rd, and so on.
+        Usage given in the image. 
+        '=rank(no. whos rank has to be found,set of numbers from 
+        which value has to be found)'
+        [syntax]
+                </left>
+            <br><br><br><br><br><br><BR><BR>
+            
+        <u><center> <font size=7> Function 5 - Median() </font> <br></u>
+            <font size = 5></center>
+    
+                
+                    <img src="example-median.png" height="400" width="700" align="Right">
+                    <br><br><br><br><br><left>
+        MEDIAN returns the median (middle value) of the numbers.If the 
+        count of numbers is odd, this is the exact middle value. If the 
+        count of numbers is even, the average of the two middle values 
+        is returned. Usage given in the image. 
+        '=median(first number of set:second number of set)'  [syntax]
+                    </left>
+                
+       </body>
+</html> 
